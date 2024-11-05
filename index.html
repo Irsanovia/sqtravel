@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>SQTRAVEL</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Rentaly - Multipurpose Vehicle Car Rental Website Template" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        
+        <!-- page preloader begin -->
+        <div id="de-preloader"></div>
+        <!-- page preloader close -->
+
+        <!-- header begin -->
+        <header class="transparent header-light scroll-light has-topbar">
+            <div id="topbar" class="topbar-dark text-light">
+                <div class="container">
+                    <div class="topbar-left xs-hide">
+                        <div class="topbar-widget">
+                            <div class="topbar-widget"><a href="#"><i class="fa fa-phone"></i>+62 857 - 7741 - 3066</a></div>
+                            <div class="topbar-widget"><a href="#"><i class="fa fa-envelope"></i>rahmanriswandi1806@gmail.com</a></div>
+                            <div class="topbar-widget"><a href="#"><i class="fa fa-clock-o"></i>24 JAM</a></div>
+                        </div>
+                    </div>
+                
+                    <div class="topbar-right">
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=61568295838193&mibextid=ZbWKwL"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://www.instagram.com/sq.trans/profilecard/?igsh=MWNybWlsbHBvdGV1Mg=="><i class="fa fa-instagram fa-lg"></i></a>
+                        </div>
+                    </div>  
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            <img class="logo-1" src="images/logo.png" alt="">
+                                            <img class="logo-2" src="images/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item glowing" href="index.html"><b>Home</b></a></li>
+                                    <li><a class="menu-item" href="about.html"><b>Tentang Kami</b></a></li>
+                                </ul>
+                            </div>                                                   
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <section id="section-hero" aria-label="section" class="full-height vertical-center" data-bgimage="url(images/background/7.jpg) bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="spacer-double sm-hide"></div>
+                        <div class="col-lg-6">
+                            <h4><span class="id-color">Nikmati Perjalanan Kalian Dengan Kami</span></h4>
+                            <div class="spacer-10"></div>
+                            <h1>SYAQEELA TRANS</h1>
+                            <p class="lead">Layanan Perjalanan Antar Kota Tersedia 24 jam.
+                                Menjamin keamanan, kenyamanan, dan Harga Yang Terjangkau..</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/misc/avanza.png" class="img-fluid" alt="">
+                        </div>  
+                    </div>
+                </div>
+            </section>
+
+            <div class="col-lg-6 offset-lg-3 text-center">
+                <h2>RUTE SYAQEELA TRANS</h2>
+                <p>Temukan berbagai pilihan mobil yang kami tawarkan untuk layanan carter dan drop. Mobil-mobil kami selalu dalam kondisi terbaik untuk memberikan kenyamanan dan keamanan bagi Anda.</p>
+                <div class="spacer-20"></div>
+                <a href="images/misc/brosur.png" download class="poster-link"> <!-- Tautan untuk mengunduh -->
+                    <img src="images/misc/brosur.png" alt="Poster Mobil" class="poster-img">
+                </a>
+            </div>                     
+
+            <!-- Kontainer WhatsApp hanya logo -->
+            <div class="whatsapp-container" onclick="toggleWhatsAppPopup()">
+                <!-- Logo WhatsApp saja -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="whatsapp-logo">
+            </div>
+
+            <section aria-label="section">
+                <!-- Popup WhatsApp -->
+                <div class="whatsapp-popup" id="whatsappPopup">
+                    <div class="whatsapp-popup-header">Hubungi Kami di WhatsApp</div>
+                    <div class="whatsapp-popup-body">
+                        <p>Butuh bantuan? Klik tombol di bawah untuk chat dengan kami!</p>
+                        <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20memesan%20Travel" target="_blank">Chat di WhatsApp</a>
+                    </div>
+                </div>
+            </section>        
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <h2>SYAQEELA TRANS</h2>
+                        <p>Layanan Travel & Transportasi</p>
+                        <div class="spacer-20"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa fa-podcast de-icon mb20"></i>
+                        <h4>Jemput Ke Lokasi</h4>
+                        <p>Jemput nyaman, sampai aman! Layanan antar jemput siap di lokasi Anda.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa fa-car de-icon mb20"></i>
+                        <h4>Carter / Drop</h4>
+                        <p>Nikmati Perjalanan aman dan nyaman bersama sopir kami yang berpengalaman!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa fa-truck de-icon mb20"></i>
+                        <h4>Kirim Paket Kilat</h4>
+                        <p>Kirim Paket Kilat, solusi cepat dan aman untuk paket penting Anda sampai tepat waktu!</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+            <section id="section-cars" class="no-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 offset-lg-3 text-center">
+                            <h2>Carter atau Drop Mobil</h2>
+                            <p>Apakah Anda mencari cara mudah dan nyaman untuk bepergian? Kami menawarkan layanan carter dan drop mobil yang dirancang khusus untuk memenuhi kebutuhan perjalanan Anda. Dengan armada kendaraan terbaru dan pengemudi profesional, kami memastikan setiap perjalanan Anda aman dan menyenangkan.</p>
+                            <div class="spacer-20"></div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div id="items-carousel" class="owl-carousel wow fadeIn">
+
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/4.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center"> <!-- Menambahkan kelas flex -->
+                                            <div>
+                                                <h4>Xenia</h4>
+                                                <div class="d-price">
+                                                    Kuota 6 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Xenia">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                                                                                                                                              
+
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/5.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center"> <!-- Menggunakan Flexbox -->
+                                            <div>
+                                                <h4>Avanza</h4>
+                                                <div class="d-price">
+                                                    Kuota 6 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Avanza">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/8.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h4>Rush</h4>
+                                                <div class="d-price">
+                                                    Kuota 6 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Rush">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/3.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h4>Sigra</h4>
+                                                <div class="d-price">
+                                                    Kuota 6 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Sigra">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/2.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h4>Hiace</h4>
+                                                <div class="d-price">
+                                                    Kuota 16 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Hiace">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/6.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h4>Calya</h4>
+                                                <div class="d-price">
+                                                    Kuota 6 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Calya">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/7.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h4>Bus</h4>
+                                                <div class="d-price">
+                                                    Kuota 60 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Bus">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12">
+                                <div class="de-item mb30">
+                                    <div class="d-img">
+                                        <img src="images/cars/1.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="d-info">
+                                        <div class="d-text d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h4>Pick Up</h4>
+                                                <div class="d-price">
+                                                    Kuota 2 Penumpang
+                                                </div>
+                                            </div>
+                                            <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20memesan%20Pick%20Up">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                                                     alt="WhatsApp" class="whatsapp-logo" style="width: 48px; height: 48px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section aria-label="section" class="pt40 pb40 text-light" data-bgcolor="#FFFFFF">
+                <div class="wow fadeInRight d-flex">
+                    <div class="de-marquee-list">
+                        <div class="d-item">
+                            <span class="d-item-txt">Avanza</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Rush</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Sigra</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Hiace</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Calya</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Bus</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Pick Up</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                            <span class="d-item-txt">Xenia</span>
+                            <span class="d-item-display">
+                                <i class="d-item-dot"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+
+            <section aria-label="section">
+                <!-- Running Text -->
+                <div class="text-center mt-4">
+                    <div class="running-text">
+                        <marquee behavior="scroll" direction="left">
+                            Ingin bergabung bersama mitra kami? Silakan hubungi di sini!
+                        </marquee>
+                    </div>
+                    
+                    <!-- Tombol WhatsApp (Tanpa Logo) -->
+                    <a href="https://wa.me/6285777413066?text=Halo%2C%20saya%20ingin%20bergabung%20sebagai%20mitra" 
+                       class="whatsapp-button" target="_blank">
+                        Hubungi Kami di WhatsApp
+                    </a>
+                </div>
+            </section>                              
+            
+        </div>
+        <!-- content close -->
+        <a href="#" id="back-to-top"></a>
+        <!-- footer begin -->
+        <footer class="text-light">
+            <div class="container">
+                <div class="row g-custom-x">
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5>Tentang Kami</h5>
+                            <p>Di Syaqeela Trans, kami memahami bahwa perjalanan yang nyaman dan aman adalah prioritas utama. Sebagai penyedia layanan travel dan transportasi terpercaya, kami siap melayani kebutuhan perjalanan Anda dengan dedikasi penuh.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5>Contact Info</h5>
+                            <address class="s1">
+                                <span><i class="id-color fa fa-phone fa-lg"></i>+62 857 - 9344 - 2194</span>
+                                <span>
+                                    <i class="id-color fa fa-envelope-o fa-lg"></i>
+                                    <a href="mailto:rahmanriswandi1806@gmail.com">Email Kami</a>
+                                </span>
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h5>Quick Links</h5>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="widget">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">Tentang Kami</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5>Social Network</h5>
+                            <div class="social-icons">
+                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex">
+                                <div class="de-flex-col">
+                                    <a href="index.html">
+                                        Copyright 2024 - Syaqeela Travel & Transportasi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script>
+        // Fungsi untuk menampilkan atau menyembunyikan popup
+        function toggleWhatsAppPopup() {
+            var popup = document.getElementById("whatsappPopup");
+            if (popup.style.display === "none" || popup.style.display === "") {
+                popup.style.display = "block";
+            } else {
+                popup.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        function setActive(element) {
+            // Hapus kelas 'active' dari semua menu item
+            const items = document.querySelectorAll('.menu-item');
+            items.forEach(item => item.classList.remove('active'));
+            
+            // Tambahkan kelas 'active' ke elemen yang diklik
+            element.classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>
